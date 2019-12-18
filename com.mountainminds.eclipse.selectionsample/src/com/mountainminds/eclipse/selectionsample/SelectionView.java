@@ -103,4 +103,16 @@ public class SelectionView extends ViewPart {
 		getSite().getWorkbenchWindow().getSelectionService().removeSelectionListener(listener);
 		super.dispose();	
 	*/
+
+
+	/*
+	Adding second useless comment on Ubuntu Machine 
+	Commenting code which will violate rules of SQ
+	public void dispose() {
+		// important: We need do unregister our listener when the view is disposed
+		getSite().getWorkbenchWindow().getSelectionService().removeSelectionListener(listener);
+		super.dispose();
+
+
+	*/
 }
